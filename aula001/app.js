@@ -68,34 +68,53 @@ console.info("informação")
 console.error("erro")
 
 // Operadores
-//     Operador Atribuição
-        /*Inteiro - int
-          real - float
-          booleano - bool
-          texto - string
-        */
-    //string
-    let cidade = "americana"
+//     Operador Atribuição  ( = )
+       salario = 2500
+//     Operadores aritméticos (+ , - , * , / ) 
+      let n1 = 10, n2 = 5    /* n1 um valor n2 outro valor */
+      console.log(n1+n2) // soma
+      console.log(n1-n2) // subtração
+      console.log(n1*n2) // multiplicação
+      console.log(n1/n2) // divisão
+      console.log(10%2) // divisão     /* pega o resto da divisão */
+      
 
-    //number
-    let salario = 2000
-     
-    //bool
+//     Operadores relacionais ( == , != , > , < , >= , <= )
+        console.log(n1 == n2)
+        console.log(n1 != n2)
+        console.log(n1 > n2)
+        console.log(n1 < n2)
+        console.log(n1 >= n2)
+        console.log(n1 <= n2)
+//     Operadores lógicos  ! - não / NOT || - ou / OR && - e / AND 
+        let altura = 1.80
+        let peso = 80
+        console.log(altura > 2 )
+        console.log(altura > 2 )
+        let tipo = "creiança"
 
-    let fumate = false
+// muda o resultado final, se for verdadeiro vira falso e se for falso vira verdadeiro
+        console.log(!10>5)
 
-    console.log(typeof cidade)
-    console.log(typeof salario)
-    console.log(typeof fumate)
-    
-//     Operadores aritméticos
-
-//     Operadores relacionais
-
-//     Operadores lógicos
+// com && todas as verificações devem ser verdadeiras para o resultado final ser verdadeiro 
+        console.log(altura > 1.5 && peso < 150 && tipo != "criança")
 
 // Estrutura
 //     Estrutura de controle/decisão
+let carro = "fiat"
+
+if(carro == "bmw"){
+  console.log("vc ta bem mais ou meno") // verdadeiro
+  }else{
+    console.log("A vida ta progredindo") // falso
+}
+
+let idadealuno =20
+if(idadealuno >=18){
+  console.log("maior de iade") // verdadeiro
+  }else{
+    console.log("menor de idade") // falso
+}
 
 //     Laços de repetição
 
